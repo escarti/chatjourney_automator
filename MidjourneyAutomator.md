@@ -1,7 +1,13 @@
 # Adapted from original file seen here: https://www.youtube.com/watch?v=MAPM6xvvg_0&t=1s 
 
 # ----- Part 1 ------ #
-# Copy this part first #
+## USAGE: 
+- Copy part 1 text in Chat GPT
+- Generate suffix with something like: 
+```Please generate a suffix for traditional oil paintings from the 15th century```
+- Copy the suffix prompt in Midjourney
+- Follow with Part 2
+## Copy this text in ChatGPT #
 
 Hey Assistant, I need your help creating Midjourney command for suffixes. 
  
@@ -21,7 +27,15 @@ Since this will be used for AI 'Text-to-Image' processing, it's far more importa
 Every time you generate one suffix describe a visually appealing art style with clear detail so someone would be inspired to try the command. (Write in the format of persuasive ad copy). 
 Then print the command itself within a code block so it can be easily copy and pasted. Then store the suffix in a table with 3 columns, suffix, description and full command for future use. We'll call this table suffix table for short.
 
-#--------- PART 2 --------#
+# --------- PART 2 ------- #
+## Usage:
+
+ ```Generate an image command for the portrait of an old man using suffix renaissance```
+
+## KNOWN ISSUES:
+- You might need to remind chat GPT to put the prompts inside a code block 
+ - You might need to remind chat GPT to print the suffix as --suffix_name because it sometimes does --suffix suffix_name
+## COPY THIS TEXT IN CHATGPT:
 
 Now I need your help to create Midjourney commands for images. The commands all follow the following format:
 
